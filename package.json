@@ -1,0 +1,22 @@
+{
+  "name": "@runnerty/trigger-server",
+  "version": "0.0.1",
+  "description": "Runnerty module: Trigger Server",
+  "author": "Coderty",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runnerty/trigger-server.git"
+  },
+  "keywords": [
+    "runnerty",
+    "trigger",
+    "servers"
+  ],
+  "bugs": {
+    "url": "https://github.com/runnerty/trigger-server/issues"
+  },
+  "homepage": "https://github.com/runnerty/trigger-server#readme",
+  "dependencies": {}
+}
