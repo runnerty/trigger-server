@@ -1,6 +1,6 @@
 'use strict';
 
-const Trigger = global.TriggerClass;
+const Trigger = require('@runnerty/module-core').Trigger;
 
 class triggerServer extends Trigger {
   constructor(chain, params) {
@@ -13,7 +13,7 @@ class triggerServer extends Trigger {
     const customValues = Object.assign(req.body, req.query);
 
     this.startChain(checkCalendar, inputValues, customValues)
-      .then(() => {})
+      .then(() => { })
       .catch(err => {
         this.logger.error('startChain error (triggerServer):', err);
       });
