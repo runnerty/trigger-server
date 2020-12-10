@@ -13,7 +13,7 @@ class triggerServer extends Trigger {
     const customValues = Object.assign(req.body, req.query);
 
     this.startChain(checkCalendar, inputValues, customValues)
-      .then(() => { })
+      .then(() => {})
       .catch(err => {
         this.logger.error('startChain error (triggerServer):', err);
       });
