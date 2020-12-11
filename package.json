@@ -1,6 +1,6 @@
 {
   "name": "@runnerty/trigger-server",
-  "version": "3.0.0",
+  "version": "3.0.0-alpha.1",
   "description": "Runnerty module: Trigger Server",
   "author": "Coderty",
   "license": "MIT",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/runnerty/trigger-server#readme",
   "dependencies": {
-    "@runnerty/module-core": "3.0.0"
+    "@runnerty/module-core": "alpha"
   },
   "devDependencies": {
     "eslint": "^7.15.0",
