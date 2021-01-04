@@ -1,6 +1,6 @@
 'use strict';
 
-const Trigger = global.TriggerClass;
+const Trigger = require('@runnerty/module-core').Trigger;
 
 class triggerServer extends Trigger {
   constructor(chain, params) {
