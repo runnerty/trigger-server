@@ -1,6 +1,6 @@
 {
   "name": "@runnerty/trigger-server",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "Runnerty module: Trigger Server",
   "author": "Runnerty Tech",
   "license": "MIT",
@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/runnerty/trigger-server#readme",
   "dependencies": {
-    "@runnerty/module-core": "~3.0.6"
+    "@runnerty/module-core": "~3.0.7"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.4.1"
+    "prettier": "^2.5.1"
   }
 }
